@@ -1,0 +1,168 @@
+{
+  "checks": [
+    "Saved shots contact the keeper before the goal line and rebound outward",
+    "Goals finish behind the line; overpowered shots stay above the bar",
+    "Editing identity reuses texture and geometry allocations",
+    "Migration preserves old record, coins and kit without inventing a name",
+    "Invalid zero is blocked; a valid player can still play when storage is disabled",
+    "Locker stays within 390×844, 375×667 and 844×390 viewports"
+  ],
+  "errors": [],
+  "trajectorySamples": {
+    "save": [
+      {
+        "x": 0,
+        "y": 0.26,
+        "z": -8.6,
+        "t": 0
+      },
+      {
+        "x": 0,
+        "y": 0.9362260216591708,
+        "z": -10.959375,
+        "t": 0.2
+      },
+      {
+        "x": 0,
+        "y": 1.286195910715277,
+        "z": -14.498437499999998,
+        "t": 0.5
+      },
+      {
+        "x": 0,
+        "y": 1.2,
+        "z": -16.15,
+        "t": 0.64
+      },
+      {
+        "x": 0.2555555555555554,
+        "y": 1.2709259583475514,
+        "z": -15.183333333333332,
+        "t": 0.72
+      },
+      {
+        "x": 0.8305555555555556,
+        "y": 0.9277635550518781,
+        "z": -13.008333333333331,
+        "t": 0.9
+      },
+      {
+        "x": 1.15,
+        "y": 0.42,
+        "z": -11.799999999999999,
+        "t": 1
+      },
+      {
+        "x": 1.15,
+        "y": 0.42,
+        "z": -11.8,
+        "result": true
+      }
+    ],
+    "goal": [
+      {
+        "x": 0,
+        "y": 0.26,
+        "z": -8.6,
+        "t": 0
+      },
+      {
+        "x": 0.68,
+        "y": 0.8594496766047313,
+        "z": -10.379999999999999,
+        "t": 0.2
+      },
+      {
+        "x": 1.7,
+        "y": 1.43,
+        "z": -13.05,
+        "t": 0.5
+      },
+      {
+        "x": 2.176,
+        "y": 1.4949789367262136,
+        "z": -14.296,
+        "t": 0.64
+      },
+      {
+        "x": 2.448,
+        "y": 1.4761592699430524,
+        "z": -15.008,
+        "t": 0.72
+      },
+      {
+        "x": 3.06,
+        "y": 1.3223118960624631,
+        "z": -16.61,
+        "t": 0.9
+      },
+      {
+        "x": 3.4,
+        "y": 1.2,
+        "z": -17.5,
+        "t": 1
+      },
+      {
+        "x": 3.4,
+        "y": 0.66,
+        "z": -18,
+        "result": true
+      }
+    ],
+    "miss": [
+      {
+        "x": 0,
+        "y": 0.26,
+        "z": -8.6,
+        "t": 0
+      },
+      {
+        "x": 0,
+        "y": 1.6794496766047313,
+        "z": -10.379999999999999,
+        "t": 0.2
+      },
+      {
+        "x": 0,
+        "y": 3.4800000000000004,
+        "z": -13.05,
+        "t": 0.5
+      },
+      {
+        "x": 0,
+        "y": 4.118978936726213,
+        "z": -14.296,
+        "t": 0.64
+      },
+      {
+        "x": 0,
+        "y": 4.428159269943052,
+        "z": -15.008,
+        "t": 0.72
+      },
+      {
+        "x": 0,
+        "y": 5.012311896062464,
+        "z": -16.61,
+        "t": 0.9
+      },
+      {
+        "x": 0,
+        "y": 5.3,
+        "z": -17.5,
+        "t": 1
+      },
+      {
+        "x": 0,
+        "y": 5.3,
+        "z": -18,
+        "result": true
+      }
+    ]
+  },
+  "allocation": {
+    "textures": 7,
+    "geometries": 40
+  },
+  "visual": "Programmatic checks; screenshots captured but not manually reviewed."
+}

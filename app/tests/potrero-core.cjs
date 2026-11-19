@@ -1,0 +1,1 @@
+const fs=require('node:fs'),vm=require('node:vm'),path=require('node:path');const context={module:{exports:{}}};vm.runInNewContext(fs.readFileSync(path.join(__dirname,'../public/game-core.js'),'utf8'),context);module.exports=context.module.exports;

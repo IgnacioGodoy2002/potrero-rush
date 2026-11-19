@@ -1,0 +1,25 @@
+{
+  "stats": {
+    "version": "3.0.0",
+    "player": {
+      "name": "ÁGUILA",
+      "number": 23,
+      "confirmed": true
+    },
+    "drawCalls": 15,
+    "textures": 7,
+    "font": true
+  },
+  "errors": [],
+  "checks": [
+    "Empty name and spaces-only blocked",
+    "Enter cannot bypass required name",
+    "Accented name and 23 accepted",
+    "Both previews rebuilt",
+    "Identity persisted on reload",
+    "Mobile 390x844: required input, number99, scrolling, start, touch move and dribble"
+  ],
+  "visual_inspection": "Source illustrations inspected; browser screenshots were captured, but remote export was not viewable by the assistant. No claim of manual screenshot review.",
+  "device_scope": "Desktop Chromium plus 390x844 touch emulation; not a physical phone.",
+  "atlas_integrity": "All 32 frames have one connected character component, no clipped alpha along sheet edges."
+}

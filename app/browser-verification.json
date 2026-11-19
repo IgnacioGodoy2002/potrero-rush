@@ -1,0 +1,12 @@
+{
+  "checks": [
+    "Desktop menu renders without a WebGL error",
+    "Desktop keyboard, dribble, pause and resume",
+    "Aim button, power button, goal result and next endless segment",
+    "Game over and retry",
+    "390x844 simulated touch: layout, both movement buttons, dribble, pause"
+  ],
+  "consoleErrors": [],
+  "desktopViewport": "1600x1067",
+  "mobileViewport": "390x844 (Chromium touch emulation, not a physical device)"
+}

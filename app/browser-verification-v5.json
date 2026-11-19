@@ -1,0 +1,176 @@
+{
+  "checks": [
+    "New V5 mesh loaded; V4 retained for opponents",
+    "Required empty name, whitespace block, accents and number 27",
+    "Front/back real renders, no clipping, animated run and kick preview and rotation",
+    "Run loop closes; real cross-blend weights sum to one",
+    "Ball waits for foot contact; save rebounds before line; goal crosses and scores",
+    "Paused additive pose does not drift or accumulate rotation",
+    "390x844 mobile layout and touch controls",
+    "Custom identity survives reload"
+  ],
+  "errors": [],
+  "preview": {
+    "front": {
+      "hash": 1074845731,
+      "opaque": 33434,
+      "edge": 0
+    },
+    "back": {
+      "hash": 1788705189,
+      "opaque": 33425,
+      "edge": 0
+    }
+  },
+  "motion": {
+    "f0": [
+      [
+        0.15528544101952968,
+        0.16954705191850622,
+        -0.2204152481260294
+      ],
+      [
+        -0.15556555611197553,
+        0.15956867081125892,
+        0.1827204674293315
+      ]
+    ],
+    "f1": [
+      [
+        0.14352846599164584,
+        0.15914016056962105,
+        -0.02031354175608384
+      ],
+      [
+        -0.15295136983555513,
+        0.37382818187512545,
+        0.037088615285337634
+      ]
+    ],
+    "f8": [
+      [
+        0.15528544101952968,
+        0.16954705191850622,
+        -0.2204152481260294
+      ],
+      [
+        -0.15556555611197553,
+        0.15956867081125892,
+        0.1827204674293315
+      ]
+    ],
+    "weights": [
+      0.84375,
+      0.15625
+    ],
+    "end": 1,
+    "stats": {
+      "type": "skinned-glb",
+      "version": "5.0.0",
+      "heroModel": "/models/potrero-player-v5.glb",
+      "bones": 18,
+      "clips": [
+        "Idle",
+        "Run",
+        "Kick",
+        "Defend"
+      ],
+      "transitionSeconds": 0.14,
+      "kickContactSeconds": 0.3,
+      "pools": {
+        "hero": 2,
+        "defender": 18,
+        "keeper": 1
+      },
+      "loaded": true
+    }
+  },
+  "shots": {
+    "before": {
+      "ball": [
+        0,
+        0.25999999046325684,
+        -8.600000381469727
+      ],
+      "toe": [
+        -0.008232205695682957,
+        0.23947200483834863,
+        -7.849131483231428
+      ]
+    },
+    "strike": {
+      "ball": [
+        0,
+        0.25999999046325684,
+        -8.600000381469727
+      ],
+      "toe": [
+        -0.0006565205396965035,
+        0.1443086446241952,
+        -8.425821170866353
+      ]
+    },
+    "save": {
+      "ball": [
+        0,
+        1.2000000476837158,
+        -16.149999618530273
+      ],
+      "toe": [
+        -0.003955065075775856,
+        0.12868437516119224,
+        -8.125364579994052
+      ]
+    },
+    "rebound": {
+      "ball": [
+        0.8761904835700989,
+        0.8641799092292786,
+        -12.835714340209961
+      ],
+      "toe": [
+        -0.0010199349227385762,
+        0.07433751784279435,
+        -8.070333874757353
+      ]
+    },
+    "outcome": "save",
+    "lives": 2,
+    "goal": {
+      "ball": [
+        3.5,
+        2.5,
+        -17.5
+      ],
+      "toe": [
+        -0.000592693936423531,
+        0.06651929534150486,
+        -8.062324351610508
+      ]
+    },
+    "goals": 1,
+    "strikeDistance": 0.20910120977097849
+  },
+  "pause": {
+    "before": [
+      -0.000006704508534621204,
+      0.0027055257614672914,
+      -0.0018379581420212635,
+      0.9999946566750251
+    ],
+    "after": [
+      -0.000006704508534621204,
+      0.0027055257614672914,
+      -0.0018379581420212635,
+      0.9999946566750251
+    ]
+  },
+  "mobile": {
+    "left": 8,
+    "right": 382,
+    "top": 8,
+    "bottom": 836,
+    "overflow": 390
+  },
+  "physicalDeviceTested": false
+}

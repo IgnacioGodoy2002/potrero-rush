@@ -1,0 +1,270 @@
+{
+  "version": "6.0.0",
+  "checks": [
+    "Gallery opens from menu; four different rendered silhouettes; no clipped edges; motion and rotation buttons work",
+    "No default name; blank/space blocked; PEÑA 27 starts and pauses normally",
+    "Low/center/high/left/right saves: glove contact within ball radius; actual skinned vertices finite and above floor tolerance",
+    "Pause freezes hands exactly; keeper gets back into ready pose after the rebound",
+    "Saved shot rebounds before the line, real goal scores, overpowered shot is above the bar",
+    "Defender appearance is stable by entity seed even when pool order changes",
+    "390×844 gallery fits; touch movement and regate still work",
+    "Saved name and number survive reload; no JS or shader errors"
+  ],
+  "errors": [],
+  "pixels": [
+    {
+      "hash": 1265759138,
+      "alpha": 35861,
+      "edge": 0
+    },
+    {
+      "hash": 4055136154,
+      "alpha": 36166,
+      "edge": 0
+    },
+    {
+      "hash": 3545621092,
+      "alpha": 36426,
+      "edge": 0
+    },
+    {
+      "hash": 146315787,
+      "alpha": 36791,
+      "edge": 0
+    }
+  ],
+  "contact": [
+    {
+      "x": 0,
+      "y": 1.2,
+      "start": 0,
+      "palmDistance": 0.2161596655487739,
+      "bothPalms": [
+        0.21615966554877397,
+        0.2161596655487739
+      ],
+      "state": "block",
+      "bounds": {
+        "min": [
+          -0.44958615795106965,
+          -0.012870340074654374,
+          -16.77360466970551
+        ],
+        "max": [
+          0.4491399542599069,
+          2.0917608028538752,
+          -16.22447413644191
+        ]
+      }
+    },
+    {
+      "x": 2.7,
+      "y": 2.1,
+      "start": 0,
+      "palmDistance": 0.21615966293895855,
+      "bothPalms": [
+        0.21615968372372782,
+        0.21615966293895855
+      ],
+      "state": "dive-high",
+      "bounds": {
+        "min": [
+          1.4958188605987894,
+          0.8580122041800724,
+          -16.773604669705506
+        ],
+        "max": [
+          3.319548387559169,
+          2.7856399719669303,
+          -16.180372177021763
+        ]
+      }
+    },
+    {
+      "x": -2.7,
+      "y": 2.1,
+      "start": 0,
+      "palmDistance": 0.21615966293895855,
+      "bothPalms": [
+        0.21615966293895855,
+        0.21615968372372782
+      ],
+      "state": "dive-high",
+      "bounds": {
+        "min": [
+          -3.3270742486364693,
+          0.8580122743355024,
+          -16.773604669705506
+        ],
+        "max": [
+          -1.4958187879980445,
+          2.776895449327551,
+          -16.180372577327688
+        ]
+      }
+    },
+    {
+      "x": 1,
+      "y": 0.55,
+      "start": -1,
+      "palmDistance": 0.21615966803310904,
+      "bothPalms": [
+        0.2607603868149231,
+        0.21615966803310904
+      ],
+      "state": "dive-low",
+      "bounds": {
+        "min": [
+          -0.3448228537626012,
+          -0.02823570746085219,
+          -16.77360466970551
+        ],
+        "max": [
+          1.714360918781844,
+          1.5857428504022961,
+          -16.22447413644191
+        ]
+      }
+    },
+    {
+      "x": -1,
+      "y": 0.55,
+      "start": 1,
+      "palmDistance": 0.2161596680331066,
+      "bothPalms": [
+        0.2161596680331066,
+        0.26076037120594114
+      ],
+      "state": "dive-low",
+      "bounds": {
+        "min": [
+          -1.7214947054170884,
+          -0.028235662304700426,
+          -16.77360466970551
+        ],
+        "max": [
+          0.3447919199863274,
+          1.5787761313146946,
+          -16.22447413644191
+        ]
+      }
+    },
+    {
+      "x": 0,
+      "y": 0.55,
+      "start": 0,
+      "palmDistance": 0.21615969571846852,
+      "bothPalms": [
+        0.21615969571846852,
+        0.21615969571846855
+      ],
+      "state": "block",
+      "bounds": {
+        "min": [
+          -0.4222554378835409,
+          -0.06598756342923086,
+          -16.773604657766594
+        ],
+        "max": [
+          0.4222554985086023,
+          1.7429608236439753,
+          -16.211359006468697
+        ]
+      }
+    },
+    {
+      "x": 0,
+      "y": 0.65,
+      "start": 0,
+      "palmDistance": 0.21615969632063586,
+      "bothPalms": [
+        0.21615969632063586,
+        0.21615969632063586
+      ],
+      "state": "block",
+      "bounds": {
+        "min": [
+          -0.4222554378835409,
+          -0.06598756342923086,
+          -16.773604657766594
+        ],
+        "max": [
+          0.4222554985086023,
+          1.7429608236439753,
+          -16.211359006468697
+        ]
+      }
+    },
+    {
+      "x": 0,
+      "y": 2.1,
+      "start": 0,
+      "palmDistance": 0.21615967954564838,
+      "bothPalms": [
+        0.21615967954564838,
+        0.2161596795456484
+      ],
+      "state": "block",
+      "bounds": {
+        "min": [
+          -0.4177513011845289,
+          0.7621296599253462,
+          -16.77360466970551
+        ],
+        "max": [
+          0.4177510795711746,
+          2.8667608028538756,
+          -16.219435498394443
+        ]
+      }
+    }
+  ],
+  "states": {
+    "drift": 0,
+    "recovered": "ready"
+  },
+  "shots": {
+    "hit": [
+      0,
+      1.2000000476837158,
+      -16.149999618530273
+    ],
+    "out": [
+      0.9674603343009949,
+      0.7255460619926453,
+      -12.490476608276367
+    ],
+    "lives": 2,
+    "goal": [
+      3.5,
+      2.5,
+      -17.5
+    ],
+    "goals": 1,
+    "high": [
+      0,
+      5.510000228881836,
+      -17.5
+    ]
+  },
+  "stable": {
+    "before": {
+      "variant-0": 0,
+      "variant-1": 1,
+      "variant-2": 2
+    },
+    "after": {
+      "variant-0": 0,
+      "variant-1": 1,
+      "variant-2": 2
+    }
+  },
+  "mobile": {
+    "l": 8,
+    "r": 382,
+    "t": 8,
+    "b": 836,
+    "overflow": 390
+  },
+  "physicalPhoneTested": false
+}

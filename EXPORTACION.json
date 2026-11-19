@@ -1,0 +1,20 @@
+{
+  "game": "POTRERO RUSH",
+  "version": "6.0.0",
+  "source_commit": "4562c05968e87d0c383907d38bf1f460865b0a23",
+  "browser_engine_sha256": "06eccb500d9be496c7a12b8af43502c794fbdfabe304530ee9ba1be9a7c1e2d7",
+  "engine_build": {
+    "esbuild": "0.25.10",
+    "three": "0.180.0"
+  },
+  "content": "Complete tracked source plus rebuilt browser engine and local launch instructions",
+  "smoke_test": {
+    "version": "6.0.0",
+    "modelsLoaded": true,
+    "rivalGallery": true,
+    "nameRequired": true,
+    "startAndPause": true,
+    "jsErrors": [],
+    "failedLocalAssets": []
+  }
+}

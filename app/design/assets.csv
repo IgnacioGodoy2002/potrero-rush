@@ -1,0 +1,18 @@
+id,role,type,description,size/ratio,style line ref,source
+front,menu locker and front articulated poses,cutout,"Full-body premium illustrated footballer; shirt repainted by code to remove baked text and marks",185x398,PR-B-2026,reference_media[1]
+back,running and rear locker preview,cutout,"Matching rear illustration; articulated limbs and custom cloth with live jersey lettering",173x393,PR-B-2026,reference_media[1]
+hero-atlas,running and kicking,canvas atlas,"Runtime-prepared articulated poses with name and number baked into the torso layer",2048x2048,PR-B-2026,generate
+defender-atlas,opponents,canvas atlas,"Front illustrated body with coral kit and rapid defensive shuffle",2048x1024,PR-B-2026,generate
+keeper-atlas,keeper,canvas atlas,"Gold kit; padded gloves; ready and blocking poses",2048x1024,PR-B-2026,generate
+lettering,menu headings,CSS,"Lilita One with cream/gold fill dark outline and extruded shadows. Not Supercell's original font.",responsive,PR-B-2026,generate
+stadium,existing pitch,existing,"Preserve original pitch and B game balance",responsive,existing,reference_media[0]
+
+player3d,articulated game player,glb,Original sculpted footballer with 18-bone rig and editable jersey identity,metre scale,stylized sports 3D,generate
+
+hero-v5,principal y vestuario,glb,Geometria de cara pelo ropa y animaciones refinadas conservando rig y UV,menor de 2 MB,stylized sports 3D,generate
+v6-rayo,defender athletic silhouette and short quiff,skinned GLB,Coral kit navy sleeves short swept hair white wristband,metre scale,PR-stylized-3D,generate
+v6-muro,defender compact silhouette and crop,skinned GLB,Broader shoulders cropped hair dark red kit and amber band,metre scale,PR-stylized-3D,generate
+v6-finta,defender agile silhouette and curls,skinned GLB,Copper jersey dark curls and navy headband,metre scale,PR-stylized-3D,generate
+v6-keeper,goalkeeper articulated model,skinned GLB,Teal long sleeves padded shorts sculpted gloves with fingers palms cuffs and pads,metre scale,PR-stylized-3D,generate
+v6-movement,opponent procedural poses,code,Ready shuffle stumble and targeted two-arm saves with visual contact,18-bone rigs,PR-stylized-3D,generate
+v6-gallery,opponent inspection,UI,Interactive rival gallery using the game models and animations,desktop mobile,existing,generate

@@ -1,0 +1,215 @@
+{
+  "checks": [
+    "Empty and whitespace-only names cannot start the game",
+    "Accented name and number 27 accepted; 100 rejected",
+    "Real 3D front/back previews contain pixels, remain in-frame, and change when rotated",
+    "Confirm starts the game with the custom identity; pause works",
+    "18-bone skinned model deforms through full animation tracks rather than swapping images",
+    "Keeper save rebounds before the line; a scored goal travels behind it",
+    "390×844 mobile viewport fits; touch movement and dribble still work",
+    "Custom name and number persist after reload"
+  ],
+  "errors": [],
+  "preview": {
+    "front": {
+      "hash": 1998837239,
+      "opaque": 35960,
+      "edge": 0
+    },
+    "back": {
+      "hash": 3932904914,
+      "opaque": 35886,
+      "edge": 0
+    }
+  },
+  "animation": {
+    "samples": [
+      {
+        "t": 0,
+        "feet": [
+          [
+            0.14823874729831593,
+            0.17221978236893193,
+            -0.20164953426921695
+          ],
+          [
+            -0.14824047468482973,
+            0.1722200386098829,
+            0.201650411596399
+          ]
+        ]
+      },
+      {
+        "t": 0.1,
+        "feet": [
+          [
+            0.14823896839319903,
+            0.17221932897465747,
+            -0.10082387882438305
+          ],
+          [
+            -0.14823957789966336,
+            0.3302214310563212,
+            0.10082673738763084
+          ]
+        ]
+      },
+      {
+        "t": 0.2,
+        "feet": [
+          [
+            0.14823931862355139,
+            0.17221931477622165,
+            0.0000011925325517359031
+          ],
+          [
+            -0.14823906676370013,
+            0.39566804347165874,
+            9.588749686484377e-7
+          ]
+        ]
+      },
+      {
+        "t": 0.3,
+        "feet": [
+          [
+            0.14823984450206798,
+            0.17221972158025822,
+            0.1008262796324494
+          ],
+          [
+            -0.14823864888165836,
+            0.3302209016419078,
+            -0.10082398570785076
+          ]
+        ]
+      },
+      {
+        "t": 0.4,
+        "feet": [
+          [
+            0.14824047520411993,
+            0.17222000613847932,
+            0.20165038102638932
+          ],
+          [
+            -0.14823874804930187,
+            0.17221985968164655,
+            -0.20164951999074343
+          ]
+        ]
+      },
+      {
+        "t": 0.5,
+        "feet": [
+          [
+            0.14823957939348265,
+            0.33022153355297185,
+            0.10082664789426296
+          ],
+          [
+            -0.1482389689970781,
+            0.1722192820105562,
+            -0.10082373118742614
+          ]
+        ]
+      },
+      {
+        "t": 0.6,
+        "feet": [
+          [
+            0.14823906672807768,
+            0.3956679708469675,
+            0.00000103303084031392
+          ],
+          [
+            -0.14823931785431677,
+            0.17221927762008687,
+            0.0000010866267648457217
+          ]
+        ]
+      },
+      {
+        "t": 0.7,
+        "feet": [
+          [
+            0.1482386491156492,
+            0.33022101585638974,
+            -0.10082383977819995
+          ],
+          [
+            -0.1482398451708664,
+            0.17221971285715337,
+            0.1008262431256583
+          ]
+        ]
+      },
+      {
+        "t": 0.8,
+        "feet": [
+          [
+            0.14823874729831593,
+            0.17221978236893193,
+            -0.20164953426921695
+          ],
+          [
+            -0.14824047468482973,
+            0.1722200386098829,
+            0.201650411596399
+          ]
+        ]
+      }
+    ],
+    "moving": true,
+    "clips": {
+      "Idle": {
+        "tracks": 54,
+        "duration": 2
+      },
+      "Run": {
+        "tracks": 54,
+        "duration": 0.8
+      },
+      "Kick": {
+        "tracks": 54,
+        "duration": 1
+      },
+      "Defend": {
+        "tracks": 54,
+        "duration": 1
+      }
+    },
+    "type": "skinned-glb"
+  },
+  "shots": {
+    "save": "save",
+    "contact": [
+      0,
+      1.2000000476837158,
+      -16.149999618530273
+    ],
+    "after": [
+      0.6708333492279053,
+      1.1120518445968628,
+      -13.612500190734863
+    ],
+    "life": 2,
+    "goal": "goal",
+    "goalPos": [
+      3.5,
+      2.5,
+      -17.5
+    ],
+    "goals": 1
+  },
+  "mobile": {
+    "left": 8,
+    "right": 382,
+    "top": 8,
+    "bottom": 836,
+    "width": 390,
+    "overflow": 390
+  },
+  "physicalDeviceTested": false,
+  "visualReview": "Rendered screenshots and pixel/bounds checks. Artistic fidelity needs user inspection."
+}

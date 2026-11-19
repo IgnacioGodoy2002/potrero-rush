@@ -1,0 +1,55 @@
+POTRERO RUSH — PROYECTO COMPLETO V6
+
+Este ZIP contiene la version 6.0.0 del juego, el codigo fuente, los modelos 3D,
+las imagenes y el motor del navegador ya compilado.
+
+PARA JUGAR EN TU COMPUTADORA
+1. Descomprimi todo el ZIP.
+2. Necesitas Python 3 instalado y un navegador actual con WebGL.
+3. En Windows, hace doble clic en INICIAR-WINDOWS.bat.
+   En macOS/Linux, abri una terminal dentro de esta carpeta y ejecuta:
+       python3 iniciar.py
+4. Se abre http://127.0.0.1:8080 en tu navegador.
+   Deja la ventana de la terminal abierta mientras jugas.
+   Para cerrar el servidor, volve a esa ventana y presiona Ctrl+C.
+
+ALTERNATIVA MANUAL
+Desde esta carpeta ejecuta:
+    python3 -m http.server 8080 --bind 127.0.0.1 --directory app/public
+Despues abri http://127.0.0.1:8080
+
+El juego debe abrirse con el servidor local, porque carga modelos GLB y usa
+rutas desde la raiz. Abrir index.html con doble clic puede impedir esa carga.
+Las tipografias web se consultan por internet; el navegador usa una alternativa
+si no hay conexion. Los modelos y el motor estan incluidos en el ZIP.
+
+CONTROLES
+A/D o flechas: moverte.
+Espacio: regate / accion de remate.
+P o Escape: pausa.
+En el celular: botones tactiles.
+Antes de empezar, completa tu nombre y numero de camiseta.
+
+CONTENIDO
+app/public/          Juego listo para servir, modelos GLB, imagenes y estilos.
+app/src/client3d/    Codigo del renderizado y los personajes 3D.
+app/scripts/         Herramientas de compilacion.
+app/tests/           Pruebas del proyecto.
+app/package.json     Dependencias y comandos del proyecto.
+app/bun.lock         Versiones fijadas de dependencias.
+app/VERSION-6.md     Detalle de esta version.
+EXPORTACION.json     Revision y datos del paquete.
+
+PARA EDITAR Y RECOMPILAR
+Instala Bun, entra en la carpeta app y ejecuta:
+    bun install --frozen-lockfile
+    bun run build
+Los cambios en src/client3d requieren recompilar.
+Para probar el resultado compilado:
+    python3 -m http.server 8080 --bind 127.0.0.1 --directory dist/client
+
+VERSION ONLINE
+https://potrero-rush.higgsfield.app/?v=6
+
+El progreso se guarda en el navegador. La copia local tiene su propio guardado
+y no importa automaticamente el progreso de la web.
